@@ -1,0 +1,29 @@
+{
+	"expo": {
+		"name": "agricnexus",
+		"slug": "agricnexus",
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./assets/images/app-icon-text-rounded-green-bg.png",
+		"scheme": "myapp",
+		"userInterfaceStyle": "light",
+		"splash": {
+			"image": "./assets/images/logo-transparent-with-text.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#ffffff"
+		},
+		"ios": {
+			"supportsTablet": true
+		},
+		"android": {},
+		"web": {
+			"bundler": "metro",
+			"output": "static",
+			"favicon": "./assets/images/favicon.png"
+		},
+		"plugins": ["expo-router"],
+		"experiments": {
+			"typedRoutes": true
+		}
+	}
+}
